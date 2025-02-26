@@ -1,0 +1,18 @@
+<h2>EDUCATION</h2>
+
+ {{ range sort .Site.Data.resume.education "StartYear" "desc" }}
+  <p>{{ .Blurb }}</p>
+  {{ range .Ed }}
+  <h4 style="display: flex; align-items: center; margin: 0; text-align: left;">
+  <span class="degree" style="flex: 0 0 25%; min-width: 0; overflow-wrap: break-word;">{{ .Degree }}</span>
+  <span class="major" style="flex: 0 0 60%;">{{ .Major }}{{ with .School }}, {{ . }}{{ end}}  </span>
+  <span class="degree-dates" style="flex: 0 0 15%; text-align: right; font-weight: normal; font-size: 1.5cqh;">
+    {{ .Start }}{{ with .End }} - {{ . }}{{ end }}
+  </span>
+</h4>
+
+      <p class="blurb" style="margin: 0 0 1em 25%; text-align: left; font-size: 1.5cqh">{{ .Blurb }}</p>
+    <ul>
+    </ul>
+  {{ end }} 
+{{ end }}

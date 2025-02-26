@@ -1,0 +1,17 @@
+<h2>Work Experience</h2>
+
+ {{ range sort .Site.Data.resume.employers "StartYear" "desc" }}
+  <h3>{{ .Name }}</h3>
+  <a href={{ .Website }}>{{ with .Image }}<img class="thumbnail" src={{ . }}>{{ end }}{{ with .WebsiteText }}{{ . }}{{ end }}</a>
+  <p>{{ .Blurb }}</p>
+  {{ range .Roles }}
+    <h4>{{ .Title }}<span class="u-pull-right">{{ .Start }} {{ with .End }}- {{ . }} {{ end }}</span></h4>
+    <span class='technologies'>{{ range .Technologies}} {{ . }} {{ end }}</span>
+    <p>{{ .Blurb }}</p>
+    <ul>
+      {{ range .Bullets }}
+        <li>{{ . }}</li>
+      {{ end }}
+    </ul>
+  {{ end }} 
+{{ end }}

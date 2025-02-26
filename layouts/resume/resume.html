@@ -1,0 +1,31 @@
+{{ define "body-classes" }}
+sticky-nav
+{{ end }}
+
+{{ define "main" }}
+<main class="content-container look-sheet article-pad-v">
+<nav class="flex-row">
+  <section id="resume" class="resume">
+
+    <h2>QUALIFICATION SUMMARY</h2>
+    {{ range .Site.Data.resume.index.Summary }}
+      <p>{{ . }}</p>
+    {{ end }}
+
+    {{ partial "resume/education.html" . }}   
+
+<!--     <h2>Primary Skills/Tools</h2>  -->
+<!--    {{ range $key, $vals := .Site.Data.resume.index.Skills }} -->
+<!--      <ul id="skills"><span>{{ $key }}</span>  -->
+<!--        {{ range $vals }} -->
+<!--          <li>{{ . }}</li> -->
+<!--        {{ end }} -->
+<!--      </ul> -->
+<!--    {{ end }} -->
+    
+    {{ partial "resume/work.html" . }} 
+
+  </section>
+ </nav>
+</main>
+{{ end }}

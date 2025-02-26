@@ -1,0 +1,12 @@
+Name: "Syngenta"
+StartYear: 2024
+Roles: 
+  Data Science Co-op:
+    Company: "Syngenta"
+    Title: "Data Science Co-op"
+    Team: "Advanced Analytics and Data Science"
+    Location: "Research Triangle Park, NC"
+    Start: "2024"
+    End: "2024"
+    Bullets:
+      - "Performed novel genetic data analysis to validate untested methods and advance the discovery breeding pipeline in maize."

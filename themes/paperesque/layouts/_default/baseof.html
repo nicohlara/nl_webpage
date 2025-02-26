@@ -49,6 +49,7 @@
     </nav>
   </div>
   {{ block "content" . }}{{ end }}
+  {{ block "main" . }}{{ end }}
   {{ if not .Params.hide_footer }}
     {{ block "footer" . }}{{ end }}
   {{ end }}

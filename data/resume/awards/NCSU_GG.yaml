@@ -1,0 +1,25 @@
+Name: "North Carolina State University"
+StartYear: 2020
+Roles: 
+  Graduate Research Assistant:
+    Title: "Graduate Research Assistant"
+    Team: "Brown-Guedira Lab"
+    Company: "North Carolina State University"
+    Location: "Raleigh, NC"
+    Start: "2021"
+    End: "Present"
+    Technologies:
+      - GWAS and CIM
+      - Alignment, imputation, and BLUE/BLUP
+      - Drone Pilot
+    Bullets:
+      - "Perform genomic analysis for QTL identification and characterization in wheat."
+      - "Collect, digitize, clean, and integrate phenotypic data on wheat usig many visual, analogue, and digital tools and methods."
+      - "Implement haplotype-based tools for genomic imputation and analysis for soft red winter wheat on high-performance computer clusters."
+  Genetics and Genomics Fellow:
+    Title: "Genetics and Genomics Fellow"
+    Start: "2020"
+    End: "2021"
+    Bullets:
+      - "Was part of the inaugural class of Genetics and Genomics fellows at NCSU, a new interdisciplinary genetics training program."
+      - "Rotated in Dr. Susana Milla-Lewis's turfgrass lab as part of the fellowship, resulting in a publication."

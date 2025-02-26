@@ -1,0 +1,29 @@
+<h2>SELECTED EXPERIENCE</h2>
+
+ {{ range sort .Site.Data.resume.employers "StartYear" "desc" }}
+  {{ range sort .Roles "Start" "desc" }}
+    <h4 style="display: flex; align-items: flex-start; margin: 0; text-align: left;">
+  <span class="job-title" style="flex: 0 0 25%; min-width: 0; overflow-wrap: break-word;">
+    {{ .Title }}{{ with .Team }}<br><span class="team" style="font-weight: normal;">{{ . }}</span>{{ end }}
+  </span>
+
+<div class="company" style="flex: 0 0 60%;">
+  <div>
+    <strong>{{ .Company }}</strong>{{ with .Location }}, <span class="location" style="font-weight: normal;">{{ . }}</span>{{ end }}
+  </div>
+  <div>
+    <ul class="blurb" style="font-weight: normal; font-size: 1.5cqh">
+      {{ range .Bullets }}
+        <li>{{ . }}</li>
+      {{end}}
+    </ul>
+  </div>
+</div>
+
+  <span class="job-dates" style="flex: 0 0 15%; text-align: right; font-weight: normal; font-size: 1.5cqh">
+    {{ .Start }}{{ with .End }} - {{ . }}{{ end }}
+  </span>
+</h4>
+
+{{ end }}
+{{ end }}
