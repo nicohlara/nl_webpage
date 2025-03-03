@@ -4,9 +4,9 @@
   <p>{{ .Blurb }}</p>
   {{ range .Ed }}
   <h4 style="display: flex; align-items: center; margin: 0; text-align: left;">
-  <span class="degree" style="flex: 0 0 25%; min-width: 0; overflow-wrap: break-word;">{{ .Degree }}</span>
-  <span class="major" style="flex: 0 0 60%;">{{ .Major }}{{ with .School }}, {{ . }}{{ end}}  </span>
-  <span class="degree-dates" style="flex: 0 0 15%; text-align: right; font-weight: normal; font-size: 1.5cqh;">
+  <span class="degree" style="flex: 0 0 20%;  min-width: 0; overflow-wrap: break-word;">{{ .Degree }}</span>
+  <span class="major" style="flex: 0 0 55%; margin-left: 5%;">{{ .Major }}{{ with .School }}, {{ . }}{{ end}}  </span>
+  <span class="degree-dates" style="flex: 0 0 15%; margin-left: 5%; text-align: right; font-weight: normal; font-size: 1.5cqh;">
     {{ .Start }}{{ with .End }} - {{ . }}{{ end }}
   </span>
 </h4>

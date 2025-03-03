@@ -6,23 +6,6 @@
 mediatype = "text/droplist"
 isPlainText = true
 
-[[params.menu]]
-	name = "about"
-	url = "documents/about"
-
-[[params.menu]]
-	name = "resume"
-	url = "resume"
-
-[[params.menu]]
-        name = "blog"
-        url = "posts/"
-
-
-[[params.topmenu]]
-	name = "about"
-	url = "documents/about"
-
 [[params.topmenu]]
 	name = "resume"
 	url = "resume"
