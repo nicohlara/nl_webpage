@@ -1,0 +1,22 @@
+{{ define "main" }}
+  <div class="container pt-5">
+    <div class=row mt-5 pt-5>
+      <div class="col-md-8">
+        {{ partial "menu.html" (dict "menuID" "main" "page" .) }}
+      </div>
+    </div>
+  <nav class="flex-row">
+    <section id="resume" class="resume">
+
+      <h2>QUALIFICATION SUMMARY</h2>
+      {{ range .Site.Data.resume.index.Summary }}
+        <p>{{ . }}</p>
+      {{ end }}
+
+      {{ partial "resume/education.html" . }}   
+      {{ partial "resume/work.html" . }} 
+
+    </section>
+  </nav>
+  </div>
+{{ end }}

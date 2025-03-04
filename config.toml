@@ -1,0 +1,48 @@
+title = "Nicolas A. H. Lara"
+theme = "not-much"
+languageCode = "en-us"
+baseURL = "https://nicohlara.github.io/"
+
+[markup]
+  [markup.highlight]
+    style = 'dracula'
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+
+[params]
+theme = "dark"
+palette = "catpuccin"
+showThemeNotice = true
+
+# Navigation
+[menu]
+  [[menu.main]]
+    identifier = "home"
+    name = "home"
+    title = "home"
+    url = "/"
+    weight = 1
+
+  [[menu.main]]
+    identifier = "resume"
+    name = "resume"
+    title = "resume"
+    url = "/resume"
+    weight = 2
+ 
+  [[menu.main]]
+    identifier = "posts"
+    name = "posts"
+    title = "posts"
+    url = "/posts"
+    weight = 3
+ 
+  
+  [[menu.main]]
+    identifier = "github"
+    name = "github"
+    title = "GitHub"
+    url = "https://github.com/nicohlara"
+    weight = 4
