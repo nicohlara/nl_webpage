@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Nicolas A. H. Lara</title>
-    <link>https://nicohlara.github.io/posts/</link>
+    <link>https://nicohlara.github.io/nl_webpage/posts/</link>
     <description>Recent content in Posts on Nicolas A. H. Lara</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 03 Mar 2025 22:07:33 -0500</lastBuildDate>
-    <atom:link href="https://nicohlara.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://nicohlara.github.io/nl_webpage/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Setting up my website</title>
-      <link>https://nicohlara.github.io/posts/setting_up_a_website/</link>
+      <link>https://nicohlara.github.io/nl_webpage/posts/setting_up_a_website/</link>
       <pubDate>Mon, 03 Mar 2025 22:07:33 -0500</pubDate>
-      <guid>https://nicohlara.github.io/posts/setting_up_a_website/</guid>
+      <guid>https://nicohlara.github.io/nl_webpage/posts/setting_up_a_website/</guid>
       <description>&lt;h2 id=&#34;the-why&#34;&gt;The why&lt;/h2&gt;&#xA;&lt;p&gt;A number of years ago I took a professional development course as part of my training fellowship (&lt;a href=&#34;https://ggscholars.org/&#34;&gt;Genetics and Genomics Scholars&lt;/a&gt;) and was recommended to set up a personal website. Intrigued, I looked into the matter, and promptly shelved it as less important at my current stage as a first-year Ph.D. student than getting data and learning how to do analyses.&lt;/p&gt;&#xA;&lt;p&gt;Last fall, I took another professional development class as part of the &lt;a href=&#34;https://triticeaecap.ucdavis.edu/&#34;&gt;Wheat Coordinated Agricultural Project&lt;/a&gt; and, again, they recommended that we set up personal websites. Now that I am an Nth year Ph.D. candidate and am beginning to look for jobs I finally took the advice and began looking into the different ways to do this.&lt;/p&gt;</description>
     </item>
   </channel>
