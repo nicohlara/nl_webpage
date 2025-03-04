@@ -10,7 +10,7 @@
   <meta property="og:site_name" content="Nicolas A. H. Lara">
   <meta property="og:title" content="Setting up my website">
   <meta property="og:description" content="The why A number of years ago I took a professional development course as part of my training fellowship (Genetics and Genomics Scholars) and was recommended to set up a personal website. Intrigued, I looked into the matter, and promptly shelved it as less important at my current stage as a first-year Ph.D. student than getting data and learning how to do analyses.
-Last year, I took another professional development class as part of the Wheat Coordinated Agricultural Project and, again, they recommended that we set up personal websites. Now I am an Nth year Ph.D. candidate and am beginning to look for jobs, so I finally took the advice.">
+Last fall, I took another professional development class as part of the Wheat Coordinated Agricultural Project and, again, they recommended that we set up personal websites. Now that I am an Nth year Ph.D. candidate and am beginning to look for jobs I finally took the advice and began looking into the different ways to do this.">
   <meta property="og:locale" content="en_us">
   <meta property="og:type" content="article">
     <meta property="article:section" content="posts">
@@ -83,7 +83,7 @@ Last year, I took another professional development class as part of the Wheat Co
               <time datetime="2025-03-03T22:07:33-05:00">March 3, 2025</time>
             </li>
             <li class="breadcrumb-item small">
-              5 minutes
+              6 minutes
             </li>
           </ol>
         </div>
@@ -91,12 +91,11 @@ Last year, I took another professional development class as part of the Wheat Co
       <article>
         <h2 id="the-why">The why</h2>
 <p>A number of years ago I took a professional development course as part of my training fellowship (<a href="https://ggscholars.org/">Genetics and Genomics Scholars</a>) and was recommended to set up a personal website. Intrigued, I looked into the matter, and promptly shelved it as less important at my current stage as a first-year Ph.D. student than getting data and learning how to do analyses.</p>
-<p>Last year, I took another professional development class as part of the <a href="https://triticeaecap.ucdavis.edu/">Wheat Coordinated Agricultural Project</a> and, again, they recommended that we set up personal websites. Now I am an Nth year Ph.D. candidate and am beginning to look for jobs, so I finally took the advice.</p>
-<p>I am a tinkerer (and perhaps a bit of a luddite) at heart, and love a good project, so after looking into the usual commercial recommendations (wix, squarespace, etc.) I decided that the perfect thing to do while writing my thesis was to create my own webpage using HTML and self-host it on the 2008 Dell desktop I bought out of a storage unit for $70 to fix a car that is now set up as an occasionally-used home server.</p>
-<p>Did I mention that my partner and I just had a baby?</p>
-<p>After a 2 AM feeding my practical side put his foot down and told me that I couldn&rsquo;t build a website from scratch while writing a dissertation and raising a newborn, so I looked around for a compromise solution&ndash;5 minutes on a selfhosting forum on <a href="https://lemmy.world/c/selfhosted">lemmy</a> (a free and open-source discussion forum compatible with the ActivityPub protocol) told me that if I was willing to have a static webpage (I am) then <a href="https://gohugo.io">Hugo</a> would do most of the backend structure and legwork for me to produce a static HTML webpage that I could host on my GitHub page for free, and even point a custom domain to&ndash;perfect!</p>
+<p>Last fall, I took another professional development class as part of the <a href="https://triticeaecap.ucdavis.edu/">Wheat Coordinated Agricultural Project</a> and, again, they recommended that we set up personal websites. Now that I am an Nth year Ph.D. candidate and am beginning to look for jobs I finally took the advice and began looking into the different ways to do this.</p>
+<p>After looking into the usual commercial recommendations (wix, squarespace, etc.), I decided that a lot of them offered way more than I needed (a basic static site with a small handful of pages). As I am a tinkerer (and perhaps a bit of a luddite) at heart and love a good project, I decided the perfect thing to occupy my spare time while trying to write my dissertation was to code my own website in HTML and self-host it on and old desktop I bought to fix a car (perhaps that will be a future post).</p>
+<p>Several minutes of reading guides&ndash;and the brief reflection that not only am I writing a dissertation, but my partner and I welcomed our new baby in December&ndash;and I decided perhaps doing everything myself was a bit much. During a 2 AM feeding I looked around for a compromise solution&ndash;5 minutes on a selfhosting forum on <a href="https://lemmy.world/c/selfhosted">lemmy</a> (a free and open-source discussion forum compatible with the ActivityPub protocol) told me that if I was willing to have a static webpage (I wanted one anyway) then <a href="https://gohugo.io">Hugo</a> would do most of the backend structure and legwork for me to produce a static HTML webpage that I could host on my GitHub page for free, and even point a custom domain to&ndash;perfect!</p>
 <h2 id="the-how">The How</h2>
-<p>After that preamble, I am documenting the actual how&ndash;mostly as an exercise in writing to help me get into the flow of things for my thesis, but also so that in six months when I forget what I did to make my resume I can refer to something.</p>
+<p>After that preamble, I am documenting the actual how&ndash;mostly as an exercise in writing to help me get into the flow of things for my thesis, but also so that in six months when I forget what I did to make my resume page I can refer to something.</p>
 <ol>
 <li>Installing Hugo and setting up the website</li>
 </ol>
@@ -112,7 +111,7 @@ and voila! hugo works as it should.</p>
 <p>After reviewing my notes from my professional development sessions and looking at a couple of online guides, I decided on a few things to prioritize:</p>
 <ul>
 <li>
-<p>An about page</p>
+<p>An about me homepage</p>
 </li>
 <li>
 <p>An online resume for quick reference, to be added as a QR code to a business card</p>
@@ -124,10 +123,11 @@ and voila! hugo works as it should.</p>
 <p>A blog, partly as a creative writing exercise and for practice before writing journal articles or my dissertation, and partly to showcase some of the work I do that would not otherwise make it into my resume.</p>
 </li>
 </ul>
-<ol start="3">
-<li>Populating</li>
-</ol>
 <p>Of the above four items, the about page and a blog are built into the paperesque theme. It seems easy enough to upload an HTML or image of a poster, so I will cross that bridge when I next make it to a conference, so that leaves me with a resume page. I easily set up a markdown document with a list of items and accomplishments, but it wasn&rsquo;t as polished or clean looking as my real resume (crafted in google sheets of all things, because it let me play with margins and formatting best). After googling briefly, I came across an <a href="https://aldra.co/blog/hugo_structured_data/">intriguing post</a> detailing how to make a database populated resume that I decided to implement. After an hour or so of frustrating tinkering and exploring of templates, I found out my theme didn&rsquo;t support layouts&ndash;after adding the line I mentioned above I was off to the races! I have very little experience with HTML or CSS, which is what templates in Hugo use as far as I can tell, so everything I did happened through trial and error, googling, and not an insignificant amount of asking AI to write me HTML code to do &lsquo;X&rsquo;. I quickly grew familiar with the basics, however, resulting in the product you see on my &lsquo;resume&rsquo; page&ndash;it is still a work in progress, but I am excited about the possibilities of using a basic template for each section and having content files for each work experience, rather than updating an unwieldy Word/Apple Pages/Google Sheets/etc. doc, and having to migrate it to a new proprietary platform every few years when the format hack I was using to get my margins right inevitably breaks in an update.</p>
+<ol start="3">
+<li>Breaking and updating</li>
+</ol>
+<p>I grew increasingly frustrated with paperesque, and also had technical debt in my directories from not knowing what I was doing and trying a bunch of things, so I eventually found a new theme and started over from scratch. I switched to <a href="https://giosuesulipano.it/not-much/">not-much</a>, a similarly lightweight theme that didn&rsquo;t need to be tinkered with to allow block rendering and should be easier to tweak colors/styles with downstream. The site is still a work in progress but the bones are in place and live!</p>
 
       </article>
       
