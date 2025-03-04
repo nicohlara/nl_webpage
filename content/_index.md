@@ -4,7 +4,7 @@ draft = false
 title = ''
 +++
 
-<img src="/headshot.jpg" width="300"/>
+<img src="images/headshot.jpg" width="300"/>
 
 I am a PhD candidate in the Eastern Regional Small Grains Genotyping lab under Dr. Gina Brown-Guedira.
 
