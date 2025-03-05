@@ -1,0 +1,13 @@
+Name: "Michigan State University"
+StartYear: 2016
+Roles: 
+  REU:
+    Title: "Research Experience for Undergrads"
+    Team: "Hamilton Lab"
+    Location: "Hickory Corners, MI"
+    Start: "Summer"
+    End: "2016"
+    Bullets:
+      - "Designed an experiment to measure drivers of decomposition in flocculent sediment in freshwater"
+      - "Collected, analyzed, and presented findings"
+      - "Results published in Freshwater Science"

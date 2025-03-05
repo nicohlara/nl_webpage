@@ -1,0 +1,12 @@
+Name: "The Ohio State University"
+StartYear: 2013
+Roles: 
+  Research Assistant:
+    Title: "Research Assistant"
+    Team: "Francis Lab"
+    Location: "Wooster, OH"
+    Start: "2013"
+    End: "2014"
+    Bullets:
+      - "Performed DNA extractions, PCRs, and DNA library preparation to screen cultivars for different carotenoid pathways"
+      - "Did in-field research and work in tomato transplanting and fertilization, seed saving, and disease rating, and conducted R statistical analysis on tomato yield data"
