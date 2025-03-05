@@ -1,21 +1,21 @@
-<h2>LEADERSHIP & SERVICE</h2>
+<h5>LEADERSHIP & SERVICE</h5>
 
  {{ range sort .Site.Data.resume.leadership "StartYear" "desc" }}
-  <h4 style="display: flex; align-items: flex-start; margin: 0; text-align: left;">
-  <span class="position" style="flex: 0 0 23%; min-width: 0; overflow-wrap: break-word;">
+  <span style="display: flex; align-items: flex-start; margin: 0; text-align: left;">
+  <strong class="position" style="flex: 0 0 23%; min-width: 0; overflow-wrap: break-word;">
     {{ .Title }}
-  </span>
+  </strong>
 
     <div class="org" style="flex: 0 0 55%; margin-left: 5%;">
-      <span>
+      <em>
         {{ .Organization }}
-      </span>
-      <p class="blurb" style="font-weight: normal; font-size: 1.7cqh">
+      </em>
+      <p class="blurb" style="font-weight: normal;">
         {{ .Blurb }}
       </p>
     </div>
-  <span class="served-dates" style="flex: 0 0 12%; margin-left: 5%; text-align: right; font-weight: normal; font-size: 1.7cqh;">
+  <span class="served-dates" style="flex: 0 0 12%; margin-left: 5%; text-align: right; font-weight: normal;">
     {{ .Years }}
   </span>
-</h4>
+</span>
 {{ end }}

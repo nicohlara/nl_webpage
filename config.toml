@@ -46,3 +46,10 @@ showThemeNotice = true
     title = "GitHub"
     url = "https://github.com/nicohlara"
     weight = 4
+
+  [[menu.main]]
+    idenfitifer = "linkedin"
+    name = "linkedin"
+    title = "LinkedIn"
+    url = "https://www.linkedin.com/in/nicolasahlara/"
+    weight = 5

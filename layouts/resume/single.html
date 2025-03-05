@@ -8,14 +8,30 @@
   <nav class="flex-row">
     <section id="resume" class="resume">
 
-      <h2>QUALIFICATION SUMMARY</h2>
-      {{ range .Site.Data.resume.index.Summary }}
-        <p>{{ . }}</p>
-      {{ end }}
+    <h2>NICOLAS A. H. LARA</h2>
+        
+    <span style="display: flex; align-items: flex-start; margin: 0;">
+      <h5 style="flex 0 0 25%; min-width: 0; overflow-wrap: break-word; text-align: center;">
+        QUALIFICATION SUMMARY
+      </h5>
 
+      <div class="quals" style="flex: 0 0 70%; margin-left: 5%;">
+        {{ range .Site.Data.resume.index.Summary }}
+          <li>{{ . }}</li>
+        {{ end }}
+      </div>
+    </span>
+    <br>
       {{ partial "resume/education.html" . }}   
+      <br>
       {{ partial "resume/work.html" . }} 
+      <br>
       {{ partial "resume/leadership.html" . }}
+      <br>
+      {{ partial "resume/honors.html" . }}
+      <br>
+      {{ partial "resume/publications.html" . }}
+      <br>
     </section>
   </nav>
   </div>
