@@ -34,7 +34,7 @@ showThemeNotice = true
  
   [[menu.main]]
     identifier = "posts"
-    name = "posts"
+    name = "blog"
     title = "posts"
     url = "/posts"
     weight = 3
@@ -42,7 +42,7 @@ showThemeNotice = true
   
   [[menu.main]]
     identifier = "github"
-    name = "github"
+    name = "code"
     title = "GitHub"
     url = "https://github.com/nicohlara"
     weight = 4
