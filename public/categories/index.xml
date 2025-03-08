@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Nicolas A. H. Lara</title>
-    <link>https://nicohlara.github.io/nl_webpage/categories/</link>
+    <link>https://www.nicolasahlara.com/categories/</link>
     <description>Recent content in Categories on Nicolas A. H. Lara</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="https://nicohlara.github.io/nl_webpage/categories/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.nicolasahlara.com/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

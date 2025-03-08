@@ -1,7 +1,7 @@
 title = "Nicolas A. H. Lara"
 theme = "not-much"
 languageCode = "en-us"
-baseURL = "https://nicohlara.github.io/nl_webpage"
+baseURL = "https://www.nicolasahlara.com"
 
 [markup]
   [markup.highlight]

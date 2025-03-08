@@ -1,7 +1,9 @@
 <h5>HONORS & AWARDS</h5>
 
+
  {{ range sort .Site.Data.resume.honors "Year" "desc" }}
-  <span style="display: flex; align-items: flex-start; margin: 0; text-align: left;">
+<ul style="padding: 0;">  
+<span style="display: flex; align-items: flex-start; margin: 0; text-align: left;">
   <strong class="award" style="flex: 0 0 23%; min-width: 0; overflow-wrap: break-word;">
     {{ .Award }}
   </strong>
@@ -13,4 +15,5 @@
     {{ .Year }}
   </span>
 </span>
+</ul>
 {{ end }}

@@ -1,7 +1,7 @@
 <h5>PUBLICATIONS</h5>
 
  {{ range sort .Site.Data.resume.publications "Year" "desc" }}
-  <range>
-    {{ .Authors }} {{ .Title }}. {{ .Journal }} ({{ .Year }})
-  </range>
+  <ul style="padding: 0;">
+    - {{ .Authors }} {{ .Title }}. {{ .Journal }} ({{ .Year }})
+  </ul>
 {{ end }}

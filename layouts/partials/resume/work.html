@@ -14,9 +14,9 @@
     <strong>{{ $employerName }}</strong>{{ with .Location }}, <span class="location" style="font-weight: normal;">{{ . }}</span>{{ end }}
   </div>
   <div>
-    <ul class="blurb" style="font-weight: normal;">
+    <ul class="blurb" style="font-weight: normal; padding: 0;">
       {{ range .Bullets }}
-        <li>{{ . }}</li>
+       <ul style="padding: 0;"> - {{ . }} </ul>
       {{end}}
     </ul>
   </div>
