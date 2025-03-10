@@ -1,3 +1,4 @@
+resume: true
 Name: "North Carolina State University"
 StartYear: 2020
 Roles: 
@@ -5,8 +6,7 @@ Roles:
     Title: "Graduate Research Assistant"
     Team: "Brown-Guedira Lab"
     Location: "Raleigh, NC"
-    Start: "2021"
-    End: "Present"
+    Years: "2021-Present"
     Bullets:
       - "Perform genomic analysis for QTL identification and characterization in wheat."
       - "Collect, digitize, clean, and integrate phenotypic data on wheat usig many visual, analogue, and digital tools and methods."

@@ -1,0 +1,12 @@
+resume: false
+Name: "Oberlin College"
+StartYear: 2017
+Roles: 
+  Role Name:
+    Title: "Chemistry Lab Teaching Assistant"
+    Team: "Department of Chemistry & Biochemistry"
+    Location: "Oberlin, OH"
+    Years: "2017-2018"
+    Bullets:
+      - "Assisted chemistry students with lab procedures and understanding of chemical concepts."
+      - "Spring 2017: Chemical Principles; Fall 2017: Structure and Reactivity; Spring 2018: Organic Chemistry"

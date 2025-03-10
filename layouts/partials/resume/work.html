@@ -1,8 +1,16 @@
-<h5>SELECTED EXPERIENCE</h5>
 
- {{ range sort .Site.Data.resume.work "StartYear" "desc" }}
-  {{ $employerName := .Name }} 
-   {{ range sort .Roles "Start" "desc" }} 
+{{ $cv := .cv | default false }}
+
+{{ if eq $cv false }}
+  <h5>SELECTED EXPERIENCE</h5><a href="/resume/cv/">For full CV</a>.
+{{ else }}
+  <h5>EXPERIENCE</h5><a href="/resume/resume/">For curated resume</a>.
+{{ end }}
+
+{{ range sort .page.Site.Data.resume.work "StartYear" "desc" }}
+  {{ if (or $cv .resume) }}
+    {{ $employerName := .Name }}
+    {{ range sort .Roles "Start" "desc" }}
 
     <span style="display: flex; align-items: flex-start; margin: 0; text-align: left;">
   <strong class="job-title" style="flex: 0 0 23%; min-width: 0; overflow-wrap: break-word;">
@@ -23,9 +31,9 @@
 </div>
 
   <span class="job-dates" style="flex: 0 0 12%; margin-left: 5%; text-align: right; font-weight: normal;">
-    {{ .Start }}{{ with .End }} - {{ . }}{{ end }}
+    {{ .Years }}
   </span>
 </span>
-
+{{ end }}
 {{ end }}
 {{ end }}

@@ -1,0 +1,12 @@
+resume: false
+Name: "Oberlin College"
+StartYear: 2016
+Roles: 
+  Role Name:
+    Title: "Academic Ambassador"
+    Team: "Office of Dean of Studies"
+    Location: "Oberlin, OH"
+    Years: "2016-2017"
+    Bullets:
+      - "Worked with Dean Randal Doane to help acclimate first-year students to the college environment by meeting with students individually to answer questions and help them to navigate the academic, administrative, and cultural terrain of Oberlin College"
+      - "Created and promoted events and activities to help new students foster academic and social support networks"

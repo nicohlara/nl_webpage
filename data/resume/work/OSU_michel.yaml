@@ -1,3 +1,4 @@
+resume: true
 Name: "The Ohio State University"
 StartYear: 2019
 Roles: 
@@ -5,8 +6,7 @@ Roles:
     Title: "Research Assistant"
     Team: "Michel Lab"
     Location: "Wooster, OH"
-    Start: "2019"
-    End: "2020"
+    Years: "2019-2020"
     Bullets:
       - "Characterized compost samples to support analysis reports for clients such as Bayer and the City of Toronto."
       - "Developed web application to visualize microbiome community composition in compost and soil samples."

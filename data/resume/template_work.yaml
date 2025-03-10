@@ -1,3 +1,4 @@
+resume: false
 Name: "Organization"
 StartYear: YYYY
 Roles: 
@@ -5,7 +6,6 @@ Roles:
     Title: "Title Name"
     Team: "Who did you work for"
     Location: "Where was this work done"
-    Start: "YYYY"
-    End: "YYYY"
+    Years: "YYYY"
     Bullets:
       - "As many bullets about the role as you want"

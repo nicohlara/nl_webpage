@@ -1,3 +1,4 @@
+resume: true
 Name: "Allen Institute for Brain and Cell Science"
 StartYear: 2017
 Roles: 
@@ -5,7 +6,6 @@ Roles:
     Title: "Research Intern"
     Team: ""
     Location: "Seattle, WA"
-    Start: "Summer"
-    End: "2017"
+    Years: "Summer 2017"
     Bullets:
       - "Performed RNA extraction, amplification, cDNA conversion, sample cleanup, PCR, and patch-Clamp for the Mouse Brain Atlas project"

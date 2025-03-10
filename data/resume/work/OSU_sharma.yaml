@@ -1,0 +1,12 @@
+resume: false
+Name: "The Ohio State University"
+StartYear: 2018
+Roles: 
+  Role Name:
+    Title: "Research Assistant"
+    Team: "College of Veterinary Medicine"
+    Location: "Columbus, OH"
+    Years: "2018"
+    Bullets:
+      - "Helped set up and begin operations in Dr. Amit Sharma’s retrovirus research lab."
+      - "Maintaining macaque and human cell cultures, performed viral transvections, and imaged and characterized infected cells."

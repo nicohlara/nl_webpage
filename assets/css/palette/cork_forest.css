@@ -1,9 +1,9 @@
 :root {
-    --bg-color: #dde2da;
-    --bg-variant: #e8eae6;
-    --primary: #562930;
-    --primary-variant: #5E2B31;
-    --secondary: #454168;
+    --bg-color: #c1ccb1;
+    --bg-variant: #7ea13a;
+    --primary: #db9ea5;
+    --primary-variant: #a35f63;
+    --secondary: #998fc6;
 }
 
 .dark {

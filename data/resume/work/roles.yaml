@@ -1,0 +1,12 @@
+resume: true
+Name: "Oberlin College"
+StartYear: 2017
+Roles: 
+  Role Name:
+    Title: "Undergraduate Researcher"
+    Team: "Roles Lab"
+    Location: "Oberlin, OH"
+    Years: "2017-2018"
+    Bullets:
+      - "Developed procedures for A. thaliana callus culture, habituation, and plant induction"
+      - "Presented poster at Midwest Ecology and Evoluation conference (2018)"
