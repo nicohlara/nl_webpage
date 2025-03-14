@@ -2,9 +2,10 @@ Name: "North Carolina State University"
 StartYear: 2020
 Ed: 
   Ph.D.:
-    School: "NCSU"
+    School: "N.C. State University"
     Degree: "Ph.D. (in progress)"
     Major: "Crop Science"
     Start: "2020"
     End: "Exp. 2025"
-    Blurb: "Mentor: Dr. Gina Brown-Guedira"
+    Blurb: 
+      - "Advisor: Dr. Gina Brown-Guedira"

@@ -7,16 +7,19 @@
     {{ .Degree }}
   </strong>
 
-    <div class="major" style="flex: 0 0 55%; margin-left: 5%;">
+    <div class="major" style="flex: 0 0 54%; margin-left: 3%;">
       <strong>
         {{ .Major }}{{ with .School }}, {{ . }}{{ end}}  
       </strong>
-      <p class="blurb" style="font-weight: normal;">
-        {{ .Blurb }}
-      </p>
+     <ul class="blurb" style="font-weight: normal; padding: 0;">
+       {{ range .Blurb }}
+        <ul style="padding: 0;"> - {{ . }} </ul>
+       {{end}}
+      </ul>
+
     </div>
-  <span class="degree-dates" style="flex: 0 0 12%; margin-left: 5%; text-align: right; font-weight: normal;">
-    {{ .Start }}{{ with .End }} - {{ . }}{{ end }}
+  <span class="degree-dates" style="flex: 0 0 17%; margin-left: 3%; text-align: right; font-weight: normal;">
+    {{ .Start }}{{ with .End }}-{{ . }}{{ end }}
   </span>
 </span>
 {{ end }}

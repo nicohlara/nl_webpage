@@ -4,9 +4,9 @@ draft = false
 title = ''
 +++
 
-<img src="images/headshot_li.jpg" width="500"/>
+Ph.D. candidate at NCSU in the Eastern Regional Small Grains Genotyping lab with Dr. Gina Brown-Guedira.
 
-I am a Ph.D. candidate in the Eastern Regional Small Grains Genotyping lab under Dr. Gina Brown-Guedira.
+<img src="images/headshot.jpg" width="600"/>
 
 I am interested in probing the frontier of predictive genomics to make plant breeding faster and cheaper, and allow breeders and farmers to better face pressing issues of food security and access.
 

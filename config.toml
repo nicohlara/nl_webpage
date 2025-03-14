@@ -42,14 +42,16 @@ showThemeNotice = true
   
   [[menu.main]]
     identifier = "github"
-    name = "code"
+    name = "github"
     title = "GitHub"
     url = "https://github.com/nicohlara"
     weight = 4
 
   [[menu.main]]
-    idenfitifer = "linkedin"
+    identifier = "linkedin"
     name = "linkedin"
     title = "LinkedIn"
-    url = "https://www.linkedin.com/in/nicolasahlara/"
+    url = "https://www.linkedin.com/nicolasahlara"
     weight = 5
+
+
