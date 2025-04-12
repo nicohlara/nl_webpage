@@ -1,0 +1,16 @@
+{{ define "main" }}
+  {{ $currentTag := .Params.tag }}
+
+  <h1>Recipes tagged with "{{ $currentTag }}"</h1>
+
+  <ul>
+    {{ range $filename, $recipe := site.Data.cookbook }}
+      {{ if in $recipe.Tags $currentTag }}
+        <li><strong>{{ $recipe.Title }}</strong></li>
+      {{ end }}
+    {{ end }}
+  </ul>
+
+  <p><a href="/cookbook/">← Back to all tags</a></p>
+{{ end }}
+
