@@ -1,6 +1,6 @@
 +++
 date = '2025-11-25'
-draft = false
+draft = true
 title = 'PAG 2026 Poster'
 +++
 
