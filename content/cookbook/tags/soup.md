@@ -2,6 +2,6 @@
 title: "Soup"
 tag: "Soup"
 url: "/cookbook/tags/soup/"
-layout: "cookbook-tags-single"
+type: "cookbook-tags-single"
 ---
 
