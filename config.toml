@@ -38,6 +38,13 @@ showThemeNotice = true
     title = "posts"
     url = "/posts"
     weight = 3
+
+  [[menu.main]]
+    identifier = "cookbook"
+    name = "cookbook"
+    title = "cookbook"
+    url = "/cookbook/cookbook"
+    weight = 3
  
   
   [[menu.main]]
@@ -54,4 +61,5 @@ showThemeNotice = true
     url = "https://www.linkedin.com/in/nicolasahlara/"
     weight = 5
 
-
+[taxonomies]
+tag = "tags"
