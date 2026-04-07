@@ -4,7 +4,7 @@ draft = false
 title = ''
 +++
 
-Ph.D. candidate at NCSU in the Eastern Regional Small Grains Genotyping lab with Dr. Gina Brown-Guedira.
+Postdoctoral researcher at NCSU in the Eastern Regional Small Grains Genotyping lab with Dr. Gina Brown-Guedira.
 
 <img src="images/headshot.jpg" width="600"/>
 
