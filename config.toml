@@ -43,7 +43,8 @@ showThemeNotice = true
     identifier = "cookbook"
     name = "cookbook"
     title = "cookbook"
-    url = "/cookbook/cookbook"
+#    url = "/cookbook/cookbook"
+    url = "/tags"
     weight = 3
  
   

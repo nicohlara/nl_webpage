@@ -1,0 +1,15 @@
+{{ define "main" }}
+  <div class="container pt-5">
+ <div class="row mt-5 pt-5">
+      {{ partial "menu.html" (dict "menuID" "main" "page" .) }}
+    </div>
+
+  <h1>{{ .Title }}</h1>
+  <ul>
+    {{ range .Pages }}
+      <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+    {{ end }}
+  </ul>
+</div>
+{{ end }}
+
