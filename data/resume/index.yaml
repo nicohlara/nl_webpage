@@ -1,8 +1,8 @@
 Summary:
-  - "Passion for improving data analysis and visualization techniques"
-  - "Extensive experience in data curation, analysis, and presentation"
-  - "Skilled in R, Ruby, Python, and command line programming for genetic analysis"
-  - "Strong background in agricultural genetics and genomics supported by research experience in evolution and biochemistry"
+  - "Passion for exploring frontiers of computational genomics"
+  - "Extensive experience in complex data analysis and modeling"
+  - "Skilled in writing scalable computational pipelines for genetic analysis"
+  - "Strong background in agricultural genetics and genomics supported by statistics"
 
 Skills:
   Languages:
@@ -12,6 +12,7 @@ Skills:
   Programming:
     - R
     - Bash
+    - Nextflow
     - Python
     - Ruby
 

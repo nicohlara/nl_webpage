@@ -1,0 +1,16 @@
+resume: true
+Name: "North Carolina State University"
+StartYear: 2026
+Roles: 
+  Postdoctoral Researcher:
+    Title: "Postdoctoral Researcher"
+    Team: "Brown-Guedira Lab"
+    Location: "Raleigh, NC"
+    Years: "2026-Present"
+    Bullets:
+      - "Created bioinformatic tools and pipelines to support genotyping."
+      - "Explored novel methods of interpreting complex genomic and
+phenotypic data."
+      - "Refined statistical models for gene mapping."
+      - "Explored graphical pangenomes for genotyping and breeding
+decision-making."
